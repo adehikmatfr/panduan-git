@@ -1,17 +1,23 @@
 # Panduan Penggunaan Git
 
-* [Mengunduh repository ke dalam komputer](http://https://github.com/datascienceid/README#mengunduh-repository)
-* [Memperbarui repository yang telah diunduh](https://github.com/datascienceid/README#memperbarui-repository)
-* [Mengunggah perubahan ke dalam repository](https://github.com/datascienceid/README#mengunggah-perubahan)
-* [Menghapus file](https://github.com/datascienceid/README#menghapus-file)
-* [Branching](https://github.com/datascienceid/README#branching)
-* [Perintah tambahan](https://github.com/datascienceid/README#perintah-tambahan)
-* [gitignore](https://github.com/datascienceid/README#gitignore)
+basic perintah git, setelah mengerti perintah dasar ini kamu bisa lanjut belajar. 
+1. bagaimana cara memperbaiki conflict
+2. graph di git
+3. stash 
+
+* [Mengunduh repository ke dalam komputer](http://https://github.com/adehikmatfr/panduan-git/README#mengunduh-repository)
+* [Memperbarui repository yang telah diunduh](https://github.com/adehikmatfr/panduan-git/README#memperbarui-repository)
+* [Mengunggah perubahan ke dalam repository](https://github.com/adehikmatfr/panduan-git/README#mengunggah-perubahan)
+* [Menghapus file](https://github.com/adehikmatfr/panduan-git/README#menghapus-file)
+* [Branching](https://github.com/adehikmatfr/panduan-git/README#branching)
+* [Perintah tambahan](https://github.com/adehikmatfr/panduan-git/README#perintah-tambahan)
+* [gitignore](https://github.com/adehikmatfr/panduan-git/README#gitignore)
 
 ## Mengunduh Repository
 
 Unduh repository ke dalam komputer menggunakan perintah `git clone`. Url
 repository dapat dilihat di dalam repository yang diinginkan.
+secara default folder tujuan yang akan terbuat adalah last path dari url git. 
 
 ```
 git clone <url repository> <folder tujuan>
@@ -20,8 +26,8 @@ git clone <url repository> <folder tujuan>
 #### Contoh
 
 ```
-user@host:~$ git clone https://github.com/datascienceid/instagram.git instagram
-Cloning into 'instagram'...
+user@host:~$ git clone https://github.com/adehikmatfr/panduan-git.git git-guid
+Cloning into 'git-guid'...
 remote: Counting objects: 4, done.
 remote: Compressing objects: 100% (4/4), done.
 remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
@@ -40,8 +46,8 @@ git pull origin <nama branch>
 #### Contoh
 
 ```
-git pull https://github.com/datascienceid/instagram.git master
-From https://github.com/datascienceid/instagram
+git pull https://github.com/adehikmatfr/panduan-git.git master
+From https://github.com/adehikmatfr/panduan-git/instagram
  * branch            master     -> FETCH_HEAD
 Already up-to-date.
 ```
@@ -49,6 +55,7 @@ Already up-to-date.
 ## Mengunggah Perubahan
 
 Jangan lupa untuk melakukan pull terlebih dahulu sebelum melakukan push.
+untuk menambahkan semua perubahan `<nama file>` bisa di ubah dengan .
 
 **Tambah file baru atau ubah file**
 
@@ -73,10 +80,10 @@ git push origin <nama branch>
 ```
 user@host:~$ git add README.md
 
-user@host:~$ git commit -m "Menambahkan readme"
-[master 224c510] Menambahkan readme
+user@host:~$ git commit -m "Mengedit readme"
+[master 224c510] Mengedit readme
  1 file changed, 1 insertion(+)
- create mode 100644 README.md
+ update mode 100644 README.md
 
 user@host~$ git push origin master
 Counting objects: 3, done.
@@ -85,7 +92,7 @@ Compressing objects: 100% (2/2), done.
 Writing objects: 100% (2/2), 271 bytes | 0 bytes/s, done.
 Total 2 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
-To https://github.com/datascienceid/instagram.git
+To https://github.com/adehikmatfr/panduan-git.git
    fec3a1f..224c510  master -> master
 ```
 
@@ -115,7 +122,7 @@ Compressing objects: 100% (2/2), done.
 Writing objects: 100% (2/2), 236 bytes | 0 bytes/s, done.
 Total 2 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
-To https://github.com/datascienceid.git
+To https://github.com/adehikmatfr/panduan-git.git
    224c510..658a76e  master -> master
 ```
 
@@ -193,9 +200,9 @@ user@host~$ git push origin development
 Total 0 (delta 0), reused 0 (delta 0)
 remote:
 remote: Create pull request for new:
-remote:   https://github.com/datascienceid/instagram/pull-requests/new?source=new&t=1
+remote:   https://github.com/adehikmatfr/panduan-git/pull-requests/new?source=new&t=1
 remote:
-To https://github.com/datascienceid/instagram.git
+To https://github.com/adehikmatfr/panduan-git.git
  * [new branch]      development -> development
 ```
 
@@ -318,3 +325,9 @@ venv/
 
 Contoh koleksi gitignore yang berguna  
 https://github.com/github/gitignore
+
+
+
+<!-- EDIT HERE TO TRY -->
+
+<!-- EDIT HERE TO TRY -->
