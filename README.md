@@ -5,13 +5,13 @@ basic perintah git, setelah mengerti perintah dasar ini kamu bisa lanjut belajar
 2. graph di git
 3. stash 
 
-* [Mengunduh repository ke dalam komputer](http://https://github.com/adehikmatfr/panduan-git/README#mengunduh-repository)
-* [Memperbarui repository yang telah diunduh](https://github.com/adehikmatfr/panduan-git/README#memperbarui-repository)
-* [Mengunggah perubahan ke dalam repository](https://github.com/adehikmatfr/panduan-git/README#mengunggah-perubahan)
-* [Menghapus file](https://github.com/adehikmatfr/panduan-git/README#menghapus-file)
-* [Branching](https://github.com/adehikmatfr/panduan-git/README#branching)
-* [Perintah tambahan](https://github.com/adehikmatfr/panduan-git/README#perintah-tambahan)
-* [gitignore](https://github.com/adehikmatfr/panduan-git/README#gitignore)
+* [Mengunduh repository ke dalam komputer](http://https://github.com/adehikmatfr/panduan-git#mengunduh-repository)
+* [Memperbarui repository yang telah diunduh](https://github.com/adehikmatfr/panduan-git#memperbarui-repository)
+* [Mengunggah perubahan ke dalam repository](https://github.com/adehikmatfr/panduan-git#mengunggah-perubahan)
+* [Menghapus file](https://github.com/adehikmatfr/panduan-git#menghapus-file)
+* [Branching](https://github.com/adehikmatfr/panduan-git#branching)
+* [Perintah tambahan](https://github.com/adehikmatfr/panduan-git#perintah-tambahan)
+* [gitignore](https://github.com/adehikmatfr/panduan-git#gitignore)
 
 ## Mengunduh Repository
 
