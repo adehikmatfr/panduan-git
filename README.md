@@ -5,7 +5,7 @@ basic perintah git, setelah mengerti perintah dasar ini kamu bisa lanjut belajar
 2. graph di git
 3. stash 
 
-* [Mengunduh repository ke dalam komputer](http://https://github.com/adehikmatfr/panduan-git#mengunduh-repository)
+* [Mengunduh repository ke dalam komputer](https://github.com/adehikmatfr/panduan-git#mengunduh-repository)
 * [Memperbarui repository yang telah diunduh](https://github.com/adehikmatfr/panduan-git#memperbarui-repository)
 * [Mengunggah perubahan ke dalam repository](https://github.com/adehikmatfr/panduan-git#mengunggah-perubahan)
 * [Menghapus file](https://github.com/adehikmatfr/panduan-git#menghapus-file)
